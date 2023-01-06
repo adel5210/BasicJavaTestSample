@@ -46,6 +46,7 @@ public class Main {
             executorService.awaitTermination(5, TimeUnit.SECONDS);
             sumList.add(map.get("test"));
         }
+        System.out.println(sumList);
         return sumList;
     }
 }
